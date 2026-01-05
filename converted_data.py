@@ -95,7 +95,7 @@ def main():
         labels.append(label)
             
     np.savez(output_file, images=np.array(images), labels=np.array(labels))
-    print("Data.npz file saved succuessfully!")
+    print("cleaned_data.npz file saved succuessfully!")
 
 
 if __name__ == "__main__":
